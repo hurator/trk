@@ -67,6 +67,13 @@ type Trip struct {
 	Active interface{} `json:"active"`
 }
 
+type GPSStatus string
+
+const (
+	GPSStatusValid     GPSStatus = "VALID"
+	GPSStatusLastKnown GPSStatus = "LAST_KNOWN_POSITION"
+)
+
 type Status struct {
 	Connection   bool    `json:"connection"`
 	ServiceLevel string  `json:"serviceLevel"`

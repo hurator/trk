@@ -7,4 +7,5 @@ type Provider interface {
 	Run(chan types.Status) error
 	Stop() error
 	GetStops() ([]types.Stop, error)
+	GetTrainInfo(string) string
 }

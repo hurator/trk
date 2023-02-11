@@ -17,10 +17,19 @@ type Stop struct {
 }
 
 type Status struct {
-	TrainId   string
-	Speed     int64
+	Train     Train
+	Speed     int64 // in m/s
 	Timestamp time.Time
 	Delay     time.Duration
 	Location  Location
 	NextStop  Stop
+}
+
+type Train struct {
+	Id           string
+	DisplayName  string
+	LookupString string
+	Type         string
+	Line         string
+	Series       string
 }

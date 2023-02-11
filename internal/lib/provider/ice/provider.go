@@ -84,7 +84,14 @@ func (p *Provider) Run(statusChan chan types.Status) {
 			}
 			trip, err = p.getTrip()
 			statusChan <- types.Status{
-				TrainId:   fmt.Sprintf("%s %s (%s)", trip.Trip.TrainType, trip.Trip.Vzn, status.Tzn),
+				Train: types.Train{
+					Id:           status.Tzn,
+					DisplayName:  fmt.Sprintf("%s %s (%s)", trip.Trip.TrainType, trip.Trip.Vzn, status.Tzn),
+					LookupString: fmt.Sprintf("%s %s", trip.Trip.TrainType, trip.Trip.Vzn),
+					Type:         trip.Trip.TrainType,
+					Line:         trip.Trip.Vzn,
+					Series:       status.Series,
+				},
 				Speed:     int64(status.Speed * 3.6),
 				Timestamp: time.Unix(status.ServerTime/1000, 0),
 				Delay:     time.Duration(p.getNextDelay(trip)) * time.Second,
