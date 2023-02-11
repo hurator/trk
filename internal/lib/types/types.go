@@ -26,10 +26,22 @@ type Status struct {
 }
 
 type Train struct {
-	Id           string
-	DisplayName  string
-	LookupString string
-	Type         string
-	Line         string
-	Series       string
+	Id            string
+	DisplayName   string
+	LookupString  string
+	Type          string
+	Line          string
+	Series        string
+	SeriesDisplay string
+}
+
+type Trip []Stop
+
+func (t Trip) GetStop(stopId string) *Stop {
+	for _, stop := range t {
+		if stop.Id == stopId {
+			return &stop
+		}
+	}
+	return nil
 }

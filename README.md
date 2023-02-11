@@ -2,6 +2,8 @@
 
 Trk is a desktop application for showing the current status of your train ride.
 
+![](screeshots/tray_menu.png)
+
 Currently only the ICE Infotainment (iceportal.de) is supported.
 
 To my knowledge it should be possible to implement the same for the czech railway service.
@@ -27,4 +29,6 @@ This Software is currently in alpha stage, so expect a lot of bugs.
   * Remaining time if the next stop is less than 10 minutes away
   * Current speed
 * Planned: Delay and time of arrival at the destination
+  * as of 11.02.2023 you can select the destination
+  * delay notification still pending
 

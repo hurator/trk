@@ -16,6 +16,7 @@ type Provider struct {
 	ResolveTimeout int64
 	ValidAddressed []net.IP
 	client         *http.Client
+	trip           *Trip
 }
 
 func NewICEProvider() *Provider {
@@ -74,7 +75,6 @@ func (p *Provider) Run(statusChan chan types.Status) {
 	quit := make(chan struct{})
 	var err error
 	var status Status
-	var trip Trip
 	for {
 		select {
 		case <-ticker.C:
@@ -82,24 +82,27 @@ func (p *Provider) Run(statusChan chan types.Status) {
 			if err != nil {
 				log.Printf("error fetching status: %s", err.Error())
 			}
-			trip, err = p.getTrip()
+			err = p.fetchTrip()
+			trainSeriesDisplay := trainSeries[status.Series]
+
 			statusChan <- types.Status{
 				Train: types.Train{
-					Id:           status.Tzn,
-					DisplayName:  fmt.Sprintf("%s %s (%s)", trip.Trip.TrainType, trip.Trip.Vzn, status.Tzn),
-					LookupString: fmt.Sprintf("%s %s", trip.Trip.TrainType, trip.Trip.Vzn),
-					Type:         trip.Trip.TrainType,
-					Line:         trip.Trip.Vzn,
-					Series:       status.Series,
+					Id:            status.Tzn,
+					DisplayName:   fmt.Sprintf("%s %s", p.trip.Trip.TrainType, p.trip.Trip.Vzn),
+					LookupString:  fmt.Sprintf("%s %s", p.trip.Trip.TrainType, p.trip.Trip.Vzn),
+					Type:          p.trip.Trip.TrainType,
+					Line:          p.trip.Trip.Vzn,
+					Series:        status.Series,
+					SeriesDisplay: trainSeriesDisplay,
 				},
 				Speed:     int64(status.Speed * 3.6),
 				Timestamp: time.Unix(status.ServerTime/1000, 0),
-				Delay:     time.Duration(p.getNextDelay(trip)) * time.Second,
+				Delay:     time.Duration(p.getNextDelay()) * time.Second,
 				Location: types.Location{
 					Latitude:  status.Latitude,
 					Longitude: status.Longitude,
 				},
-				NextStop: p.getNextStop(trip),
+				NextStop: p.getNextStop(),
 			}
 		case <-quit:
 			break
@@ -124,26 +127,26 @@ func (p *Provider) getStatus() (Status, error) {
 	return status, err
 }
 
-func (p *Provider) getTrip() (Trip, error) {
+func (p *Provider) fetchTrip() error {
 	trip := Trip{}
 	resp, err := p.client.Get("https://iceportal.de/api1/rs/tripInfo/trip")
 	if err != nil {
-		return trip, err
+		return err
 	}
 	defer resp.Body.Close()
 	if resp.StatusCode != http.StatusOK {
-		return trip, fmt.Errorf("trip: %d", resp.StatusCode)
+		return fmt.Errorf("trip: %d", resp.StatusCode)
 	}
 
 	dec := json.NewDecoder(resp.Body)
 	err = dec.Decode(&trip)
-
-	return trip, err
+	p.trip = &trip
+	return err
 }
 
-func (p *Provider) getNextDelay(trip Trip) int64 {
+func (p *Provider) getNextDelay() int64 {
 
-	for _, stop := range trip.Trip.Stops {
+	for _, stop := range p.trip.Trip.Stops {
 		if stop.Info.Passed {
 			continue
 		}
@@ -158,8 +161,8 @@ func (p *Provider) getNextDelay(trip Trip) int64 {
 	return 0
 }
 
-func (p *Provider) getNextStop(trip Trip) types.Stop {
-	for _, stop := range trip.Trip.Stops {
+func (p *Provider) getNextStop() types.Stop {
+	for _, stop := range p.trip.Trip.Stops {
 		if stop.Info.Passed {
 			continue
 		}
@@ -195,13 +198,12 @@ func (p *Provider) getDelay(trip Trip) int64 {
 	return 0
 }
 
-func (p *Provider) GetStops() ([]types.Stop, error) {
-	trip, err := p.getTrip()
-	if err != nil {
-		return nil, err
+func (p *Provider) GetStops() []types.Stop {
+	if p.trip == nil {
+		return nil
 	}
-	stops := make([]types.Stop, 0, len(trip.Trip.Stops))
-	for _, stop := range trip.Trip.Stops {
+	stops := make([]types.Stop, 0, len(p.trip.Trip.Stops))
+	for _, stop := range p.trip.Trip.Stops {
 		arrivalTime := time.Time{}
 		if stop.Timetable.ActualArrivalTime != nil {
 			arrivalTime = time.Unix(*stop.Timetable.ActualArrivalTime/1000, 0)
@@ -219,5 +221,5 @@ func (p *Provider) GetStops() ([]types.Stop, error) {
 			Passed:      stop.Info.Passed,
 		})
 	}
-	return stops, err
+	return stops
 }
