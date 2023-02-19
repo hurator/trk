@@ -10,6 +10,7 @@ import (
 	"log"
 	"os/exec"
 	"time"
+	"trk/internal/lib/helper"
 	"trk/internal/lib/lookup"
 	"trk/internal/lib/provider/ice"
 	"trk/internal/lib/types"
@@ -180,7 +181,13 @@ func loop() {
 				glib.IdleAdd(func() {
 					if currentTrain == nil || status.Train.Id != currentTrain.Id {
 						currentTrain = &status.Train
-						sendNotification(notifier, "New Train", fmt.Sprintf("Welcome to <b>%s</b> (It's a %s)", status.Train.DisplayName, status.Train.SeriesDisplay))
+						sendNotification(
+							notifier,
+							"New Train", fmt.Sprintf("Welcome to <b>%s</b> (It's %s %s)",
+								status.Train.DisplayName,
+								helper.GetIndefiniteArticle(status.Train.SeriesDisplay),
+								status.Train.SeriesDisplay,
+							))
 						labelTrain.SetLabel("Train: " + status.Train.DisplayName)
 						buildTransferMenu(currentTrip)
 					}
