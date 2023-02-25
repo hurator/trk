@@ -45,3 +45,12 @@ func (t Trip) GetStop(stopId string) *Stop {
 	}
 	return nil
 }
+
+func (t Trip) GetNextStop() *Stop {
+	for _, stop := range t {
+		if stop.Passed == false {
+			return &stop
+		}
+	}
+	return nil
+}

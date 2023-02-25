@@ -8,15 +8,23 @@ import (
 	"github.com/gotk3/gotk3/glib"
 	"github.com/gotk3/gotk3/gtk"
 	"log"
-	"os/exec"
 	"time"
+	"trk/internal/lib/external"
+	"trk/internal/lib/files"
 	"trk/internal/lib/helper"
-	"trk/internal/lib/lookup"
 	"trk/internal/lib/provider/ice"
 	"trk/internal/lib/types"
 )
 
 const TextDestinationSelect = "Select Destination"
+
+var StationActions = []notify.Action{
+	{Key: "show-station", Label: "Show on Map"},
+}
+
+var TrainActions = []notify.Action{
+	{Key: "train", Label: "Show on Vagonweb.cz"},
+}
 
 var (
 	labelTrain       *gtk.MenuItem
@@ -28,7 +36,7 @@ var (
 
 	indicator *appindicator.Indicator
 
-	vagonWebLookup *lookup.VagonWebLookup
+	notifyStore *helper.NotifyStore
 )
 
 var currentTrain *types.Train
@@ -37,9 +45,11 @@ var currentTrip types.Trip
 var destinationStop *types.Stop
 
 func main() {
-	vagonWebLookup = lookup.NewVagonWebLookup()
+	notifyStore = &helper.NotifyStore{}
 	gtk.Init(nil)
+	defer files.CleanUp()
 	defer gtk.Main()
+
 	var err error
 
 	item, err := gtk.MenuItemNewWithLabel("Quit")
@@ -68,14 +78,25 @@ func main() {
 	indicator.SetMenu(menu)
 	indicator.SetLabel("Trk", "guide")
 	indicator.SetStatus(appindicator.StatusActive)
+	indicator.SetIconFull(files.GetIconPath("images/trk.png"), "Icon")
 	go loop()
 }
 
 func createLabels() []*gtk.MenuItem {
 	labelIdle = mustCreateMenuItemWithLabel("Waiting for Train", nil)
-	labelNextStop = mustCreateMenuItemWithLabel("next", nil)
+	labelNextStop = mustCreateMenuItemWithLabel("next", func() {
+		if currentTrip != nil {
+			if nextStop := currentTrip.GetNextStop(); nextStop != nil {
+				external.OpenOEPNVKarte(nextStop.Location)
+			}
+		}
+	})
 	labelDestination = mustCreateMenuItemWithLabel(TextDestinationSelect, nil)
-	labelTrain = mustCreateMenuItemWithLabel("train", openTrainDetails)
+	labelTrain = mustCreateMenuItemWithLabel("train", func() {
+		if currentTrain != nil {
+			external.OpenVagonWeb(currentTrain)
+		}
+	})
 	labelSpeed = mustCreateMenuItemWithLabel("speed", nil)
 	return []*gtk.MenuItem{
 		labelIdle,
@@ -168,7 +189,7 @@ func loop() {
 	if err = conn.Hello(); err != nil {
 		panic(err)
 	}
-	notifier, err := notify.New(conn)
+	notifier, err := notify.New(conn, notify.WithOnAction(onNotifyAction), notify.WithOnClosed(onNotifyClose))
 	timeout := time.Second * 1
 	go func() {
 		lastNextStopId := ""
@@ -187,19 +208,34 @@ func loop() {
 								status.Train.DisplayName,
 								helper.GetIndefiniteArticle(status.Train.SeriesDisplay),
 								status.Train.SeriesDisplay,
-							))
+							), helper.TrainNotification, &status.Train)
 						labelTrain.SetLabel("Train: " + status.Train.DisplayName)
 						buildTransferMenu(currentTrip)
 					}
 					if status.NextStop.Id != lastNextStopId {
 						lastNextStopId = status.NextStop.Id
-						sendNotification(notifier, "Next Stop", fmt.Sprintf(
-							"<b>%s</b> at %s", status.NextStop.Name, status.NextStop.ArrivalTime))
+						sendNotification(
+							notifier,
+							"Next Stop",
+							fmt.Sprintf(
+								"<b>%s</b> at %s",
+								status.NextStop.Name,
+								status.NextStop.ArrivalTime,
+							),
+							helper.StationNotification,
+							status.NextStop.Location,
+						)
 					}
 					if status.Delay > time.Minute*2 {
 						if status.Delay != lastDelay {
 							lastDelay = status.Delay
-							sendNotification(notifier, "Delay", fmt.Sprintf("Current Delay is %s", status.Delay))
+							sendNotification(
+								notifier,
+								"Delay",
+								fmt.Sprintf("Current Delay is %s", status.Delay),
+								helper.DelayNotification,
+								nil,
+							)
 						}
 					}
 
@@ -247,43 +283,60 @@ func loop() {
 			}
 			if ok {
 				guiSetActive()
-				sendNotification(notifier, "Connected", "Connected to ICE Status API")
+				sendNotification(notifier,
+					"Connected",
+					"Connected to ICE Status API",
+					helper.InitNotification,
+					nil,
+				)
 				iceProvider.Run(statsChan)
 			}
 		}
 	}
 }
 
-func sendNotification(notifier notify.Notifier, summary, body string) {
-	_, err := notifier.SendNotification(notify.Notification{
+func sendNotification(notifier notify.Notifier, summary, body string, t helper.NotificationType, data any) {
+	var actions []notify.Action
+	switch t {
+	case helper.TrainNotification:
+		actions = TrainActions
+	case helper.StationNotification:
+		actions = StationActions
+	}
+	id, err := notifier.SendNotification(notify.Notification{
 		AppName:       "Trk",
-		ReplacesID:    0,
-		AppIcon:       "train", // TODO: real icon
+		ReplacesID:    notifyStore.GetPreviousID(t),
+		AppIcon:       files.GetIconPath("images/trk.png"),
 		Summary:       summary,
 		Body:          body,
-		Actions:       nil,
+		Actions:       actions,
 		Hints:         nil,
 		ExpireTimeout: 20,
 	})
 	if err != nil {
 		log.Printf("err:%s\n", err.Error())
 	}
+	notifyStore.AddNotification(t, id, data)
 }
 
-func openTrainDetails() {
-	if currentTrain == nil {
+func onNotifyAction(action *notify.ActionInvokedSignal) {
+	if notifyStore.DeBounce(action.ID) {
 		return
 	}
-	url, err := vagonWebLookup.GetTrainLink(currentTrain.LookupString)
-	if err == nil {
-		go func() {
-			err := exec.Command("xdg-open", url).Run()
-			if err != nil {
-				fmt.Printf("Error opening train info: %s", err.Error())
-			}
-		}()
-	} else {
-		fmt.Printf("Error opening train info: %s", err.Error())
+	notifyStore.Called(action.ID)
+	switch action.ActionKey {
+	case "train":
+		data := notifyStore.GetData(action.ID)
+		if train, ok := data.(*types.Train); ok {
+			external.OpenVagonWeb(train)
+		}
+	case "show-station":
+		data := notifyStore.GetData(action.ID)
+		if location, ok := data.(types.Location); ok {
+			external.OpenOEPNVKarte(location)
+		}
 	}
-
+}
+func onNotifyClose(closer *notify.NotificationClosedSignal) {
+	notifyStore.DismissNotification(closer.ID)
 }
