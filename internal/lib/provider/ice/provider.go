@@ -19,6 +19,11 @@ type Provider struct {
 	trip           *Trip
 }
 
+func (p *Provider) GetTrainInfo(s string) string {
+	//TODO implement me
+	panic("implement me")
+}
+
 func NewICEProvider() *Provider {
 	return &Provider{
 		status:         false,
