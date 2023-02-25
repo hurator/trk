@@ -1,0 +1,2852 @@
+[ {
+  "id" : 7252332,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Café Crème mit OATLY Haferdrink",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Caf_Crme_Oatly/Bild_Caf_Crme_Oatly.data.jpg",
+  "options" : [ {
+    "id" : 7252322,
+    "name" : "Größe S",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7252324,
+    "name" : "Größe M",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7252326,
+    "name" : "Größe L",
+    "price" : 4.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.00
+    }, {
+      "currency" : "CHF",
+      "value" : 4.80
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081320,
+    "shortDescription" : "9",
+    "description" : "mit Phosphat"
+  } ]
+}, {
+  "id" : 8736902,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Butterkuchen",
+  "description" : "mit Mandelsplitter",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Butterkuchen/Bild_Butterkuchen.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Butterkuchen/Bild_Butterkuchen.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078552,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Warmes Schinken-Käse-Baguette",
+  "description" : "mit Frischkäse-Senfaufstrich",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Warmes_Schinken-Kaese-Baguette/Bild_Warmes_Schinken-Kaese-Baguette.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Warmes_Schinken-Kaese-Baguette/Bild_Warmes_Schinken-Kaese-Baguette.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081284,
+    "shortDescription" : "1",
+    "description" : "mit Farbstoff"
+  }, {
+    "id" : 6081296,
+    "shortDescription" : "2",
+    "description" : "mit Antioxidationsmittel"
+  }, {
+    "id" : 6081318,
+    "shortDescription" : "5",
+    "description" : "mit Konservierungsstoff Nitritpökelsalz"
+  }, {
+    "id" : 6081320,
+    "shortDescription" : "9",
+    "description" : "mit Phosphat"
+  } ]
+}, {
+  "id" : 6104538,
+  "vzn" : "505",
+  "category" : "Kindermenü",
+  "title" : "Kindermenü mit Pommes frites",
+  "description" : "dazu eine Apfelschorle 0,5 l, eine kleine Süßigkeit, einen Smoothie sowie ein Spielzeug",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/Kindermenue_mit_Pommes_frites/Bild_Kindermenue_mit_Pommes_frites.data.jpg",
+  "options" : [ {
+    "id" : 6159994,
+    "name" : "Ketchup ",
+    "price" : 7.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 7.50
+    }, {
+      "currency" : "CHF",
+      "value" : 9.00
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6159996,
+    "name" : "Mayonnaise",
+    "price" : 7.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 7.50
+    }, {
+      "currency" : "CHF",
+      "value" : 9.00
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111322,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "BIO-English Breakfast",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/BIO-English_Breakfast/Bild_BIO-English_Breakfast.data.jpg",
+  "options" : [ {
+    "id" : 6111316,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111314,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291624,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Linseneintopf",
+  "description" : "mit Mettenden in Scheiben & BIO-Brötchen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Linseneintopf/Bild_Linseneintopf.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 10.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 10.90
+    }, {
+      "currency" : "CHF",
+      "value" : 13.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Linseneintopf/Bild_Linseneintopf.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081318,
+    "shortDescription" : "5",
+    "description" : "mit Konservierungsstoff Nitritpökelsalz"
+  } ]
+}, {
+  "id" : 8736908,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Veganer lycka Kokos BIO-Schokoriegel",
+  "description" : "40g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Veganer_BIO_lycka_Kokos_Schokoriegel/Bild_Veganer_BIO_lycka_Kokos_Schokoriegel.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.00
+    }, {
+      "currency" : "CHF",
+      "value" : 2.40
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Veganer_BIO_lycka_Kokos_Schokoriegel/Bild_Veganer_BIO_lycka_Kokos_Schokoriegel.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101712,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Erdinger Weißbier hell",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Erdinger_Weissbier_hell/Bild_Erdinger_Weissbier_hell.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 4.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.40
+    }, {
+      "currency" : "CHF",
+      "value" : 5.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Erdinger_Weissbier_hell/Bild_Erdinger_Weissbier_hell.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6112208,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "2021 Grauburgunder",
+  "description" : "trocken, Juwel Weine, Rheinhessen, 0,25 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/2019_Grauburgunder/Bild_2019_Grauburgunder.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 7.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 7.90
+    }, {
+      "currency" : "CHF",
+      "value" : 9.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/2019_Grauburgunder/Bild_2019_Grauburgunder.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081328,
+    "shortDescription" : "16",
+    "description" : "enthält Sulfite"
+  }, {
+    "id" : 6081336,
+    "shortDescription" : "6",
+    "description" : "geschwefelt"
+  } ]
+}, {
+  "id" : 10035092,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "Menü: Veganes planted.chicken Paprika Zitrone",
+  "description" : "dazu Bitburger Premium Pils 0,33 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_Veganes_planted.chicken_Paprika_Zitrone/Bild_Menue_Veganes_planted.chicken_Paprika_Zitrone.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 14.30,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 14.30
+    }, {
+      "currency" : "CHF",
+      "value" : 17.20
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_Veganes_planted.chicken_Paprika_Zitrone/Bild_Menue_Veganes_planted.chicken_Paprika_Zitrone.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078290,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Currywurst mit Pommes frites",
+  "description" : "und Tortilla-Crunch",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Currywurst_mit_Pommes_frites/Bild_Currywurst_mit_Pommes_frites.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.50
+    }, {
+      "currency" : "CHF",
+      "value" : 10.20
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Currywurst_mit_Pommes_frites/Bild_Currywurst_mit_Pommes_frites.data.jpg"
+  } ],
+  "extras" : [ {
+    "id" : 452132,
+    "title" : "Ketchup",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  }, {
+    "id" : 452137,
+    "title" : "Mayonnaise",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  } ],
+  "declarations" : [ {
+    "id" : 6081296,
+    "shortDescription" : "2",
+    "description" : "mit Antioxidationsmittel"
+  }, {
+    "id" : 6081320,
+    "shortDescription" : "9",
+    "description" : "mit Phosphat"
+  } ]
+}, {
+  "id" : 7278560,
+  "vzn" : "505",
+  "category" : "Kindermenü",
+  "title" : "Kindermenü mit veganem Haferdrink-Milchreis",
+  "description" : "dazu eine Apfelschorle 0,5 l, eine kleine Süßigkeit, einen Smoothie sowie ein Spielzeug",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/Kindermenue_mit_veganem_Milchreis/Bild_Kindermenue_mit_veganem_Haferdrink-Milchreis.data.jpg",
+  "options" : [ {
+    "id" : 7290728,
+    "name" : "mit Zimt & Zucker",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7290740,
+    "name" : "mit Kirschkompott",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7290730,
+    "name" : "mit Schokosoße",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7290742,
+    "name" : "mit veganem Topping Haselnuss-Cashew",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9146648,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "Menü: BIO-Gulaschsuppe mit BIO-Brötchen",
+  "description" : "dazu BIO BRLO Winter Cider 0,33 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_BIO_Gulaschsuppe/Bild_Menue_BIO_Gulaschsuppe.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 9.30,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 9.30
+    }, {
+      "currency" : "CHF",
+      "value" : 11.20
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_BIO_Gulaschsuppe/Bild_Menue_BIO_Gulaschsuppe.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9635206,
+  "vzn" : "505",
+  "category" : "Kindermenü",
+  "title" : "BIO Freche Freunde Fruchtpüree",
+  "description" : "mit Banane, Apfel, Erdbeere & Himbeere",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/BIO_Freche_Freunde_Fruchtpueree/Bild_BIO_Freche_Freunde.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.90
+    }, {
+      "currency" : "CHF",
+      "value" : 3.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/BIO_Freche_Freunde_Fruchtpueree/Bild_BIO_Freche_Freunde.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291770,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Veganes BIO-Porridge Apfel-Zimt",
+  "description" : "auf Wunsch mit Haselnuss-Cashew Topping",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Porridge_Apfel-Zimt/Bild_Porridge_Apfel-Zimt_Fruehstueck.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.90
+    }, {
+      "currency" : "CHF",
+      "value" : 4.70
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Porridge_Apfel-Zimt/Bild_Porridge_Apfel-Zimt_Fruehstueck.data.jpg"
+  } ],
+  "extras" : [ {
+    "id" : 452133,
+    "title" : "Veganes BIO-Topping Haselnuss-Cashew",
+    "price" : 1.50,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.50
+    }, {
+      "currency" : "CHF",
+      "value" : 1.80
+    } ]
+  } ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101706,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Bitburger 0,0% alkoholfreies Pils",
+  "description" : "0,33 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_00_alkoholfreies_Pils/Bild_Bitburger_00_alkoholfreies_Pils.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_00_alkoholfreies_Pils/Bild_Bitburger_00_alkoholfreies_Pils.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7654380,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Tony's Chocolonely Vollmilchschokolade",
+  "description" : "mit Karamell & Meersalz, 47g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Tonys_Chocolonely_Vollmilchschokolade/Bild_Tonys_Chocolonely_Vollmilchschokolade.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.20
+    }, {
+      "currency" : "CHF",
+      "value" : 2.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Tonys_Chocolonely_Vollmilchschokolade/Bild_Tonys_Chocolonely_Vollmilchschokolade.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101700,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Bitburger Radler naturtrüb",
+  "description" : "0,33 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_Radler_naturtrueb/Bild_Bitburger_Radler_naturtrueb.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_Radler_naturtrueb/Bild_Bitburger_Radler_naturtrueb.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6112326,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Rotkäppchen Sekt Tradition ",
+  "description" : "Cuvée, trocken,  0,2 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Rotkaeppchen_Sekt/Bild_Rotkaeppchen_Sekt.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 6.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 6.90
+    }, {
+      "currency" : "CHF",
+      "value" : 8.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Rotkaeppchen_Sekt/Bild_Rotkaeppchen_Sekt.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081328,
+    "shortDescription" : "16",
+    "description" : "enthält Sulfite"
+  } ]
+}, {
+  "id" : 6112320,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "2018 Rot und Wild – Rotwein Cuvée",
+  "description" : "trocken, Christian Hirsch, Württemberg, 0,25 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/2018_Rot_und_Wild__Rotwein_Cuve/Bild_2018_Rot_und_Wild__Rotwein_Cuve.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/2018_Rot_und_Wild__Rotwein_Cuve/Bild_2018_Rot_und_Wild__Rotwein_Cuve.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081328,
+    "shortDescription" : "16",
+    "description" : "enthält Sulfite"
+  }, {
+    "id" : 6081336,
+    "shortDescription" : "6",
+    "description" : "geschwefelt"
+  } ]
+}, {
+  "id" : 6111426,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Spearminze",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Spearminze/Bild_Spearminze.data.jpg",
+  "options" : [ {
+    "id" : 6111420,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111418,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291632,
+  "vzn" : "505",
+  "category" : "Suppen & Salate",
+  "title" : "Veganer orientalischer Linsensalat",
+  "description" : "mit Mango, Apfel und Frühlingslauch",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/04_Suppen__Salate/Orientalischer_Linsensalat/Bild_Orientalischer_Linsensalat.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 7.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 7.90
+    }, {
+      "currency" : "CHF",
+      "value" : 9.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/04_Suppen__Salate/Orientalischer_Linsensalat/Bild_Orientalischer_Linsensalat.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 8736922,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Eis Nuii",
+  "description" : "Salted Caramel",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Eis_Nuii/Bild_Eis_Nuii.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.90
+    }, {
+      "currency" : "CHF",
+      "value" : 3.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Eis_Nuii/Bild_Eis_Nuii.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6110972,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Café au Lait",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Caf_au_Lait/Bild_Caf_au_Lait.data.jpg",
+  "options" : [ {
+    "id" : 6111016,
+    "name" : "Größe S",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111020,
+    "name" : "Größe M",
+    "price" : 4.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.00
+    }, {
+      "currency" : "CHF",
+      "value" : 4.80
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111018,
+    "name" : "Größe L",
+    "price" : 4.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.20
+    }, {
+      "currency" : "CHF",
+      "value" : 5.00
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101758,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Erdinger Weißbier alkoholfrei",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Erdinger_Weissbier_alkoholfrei/Bild_Erdinger_Weissbier_alkoholfrei.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 4.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.40
+    }, {
+      "currency" : "CHF",
+      "value" : 5.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Erdinger_Weissbier_alkoholfrei/Bild_Erdinger_Weissbier_alkoholfrei.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6104564,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "2 Flammkuchen Elsässer Art",
+  "description" : "belegt mit Speckwürfeln & Zwiebeln",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/2_Flammkuchen_Elsaesser_Art/Bild_2_Flammkuchen_Elsaesser_Art.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/2_Flammkuchen_Elsaesser_Art/Bild_2_Flammkuchen_Elsaesser_Art.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081296,
+    "shortDescription" : "2",
+    "description" : "mit Antioxidationsmittel"
+  }, {
+    "id" : 6081318,
+    "shortDescription" : "5",
+    "description" : "mit Konservierungsstoff Nitritpökelsalz"
+  } ]
+}, {
+  "id" : 6111348,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "BIO-Grüntee Jingshen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/BIO-Gruentee_Jingshen/Bild_BIO-Gruentee_Jingshen.data.jpg",
+  "options" : [ {
+    "id" : 6111342,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111340,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078326,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Veganes Gemüsecurry",
+  "description" : "mit Basmatireis",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Veganes_Gemuesecurry/Bild_Veganes_Gemuesecurry.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 11.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 11.90
+    }, {
+      "currency" : "CHF",
+      "value" : 14.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Veganes_Gemuesecurry/Bild_Veganes_Gemuesecurry.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101494,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Vegane ültje Erdnüsse",
+  "description" : "pikant gewürzt, 50g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/ueltje_Erdnuesse/Bild_ueltje_Erdnuesse.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.20
+    }, {
+      "currency" : "CHF",
+      "value" : 2.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/ueltje_Erdnuesse/Bild_ueltje_Erdnuesse.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111734,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Adelholzener Apfelschorle",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Adelholzener_Apfelschorle/Bild_Adelholzener_Apfelschorle.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Adelholzener_Apfelschorle/Bild_Adelholzener_Apfelschorle.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9194912,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Ditsch Butterbrezel ",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Ditsch_Butterbrezel/Bild_Ditsch_Butterbrezel.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.50
+    }, {
+      "currency" : "CHF",
+      "value" : 3.00
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Ditsch_Butterbrezel/Bild_Ditsch_Butterbrezel.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101360,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Buttercroissant",
+  "description" : "65g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Buttercroissant/Bild_Buttercroissant.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.60
+    }, {
+      "currency" : "CHF",
+      "value" : 3.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Buttercroissant/Bild_Buttercroissant.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078572,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Vegetarisches Vollkornbrot",
+  "description" : "belegt mit Gouda, Gewürzgurken & Schnittlauch-Quark-Aufstrich ",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Vegetarisches_Vollkornbrot/Bild_Vegetarisches_Vollkornbrot.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 4.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.90
+    }, {
+      "currency" : "CHF",
+      "value" : 5.90
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Vegetarisches_Vollkornbrot/Bild_Vegetarisches_Vollkornbrot.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111724,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "share Mineralwasser still",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/share_Mineralwasser_still/Bild_share_Mineralwasser_still.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.20
+    }, {
+      "currency" : "CHF",
+      "value" : 3.80
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/share_Mineralwasser_still/Bild_share_Mineralwasser_still.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7655622,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Gin & Tonic Edinburgh Seaside",
+  "description" : "0,25 l, Alc. 43 Vol.-%, mit Fever-Tree Mediterranean Tonic Water",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/GinTonic_Edinburgh_Seaside/Bild_GinTonic_Edinburgh_Seaside.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 9.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 9.50
+    }, {
+      "currency" : "CHF",
+      "value" : 11.40
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/GinTonic_Edinburgh_Seaside/Bild_GinTonic_Edinburgh_Seaside.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 7654246,
+    "shortDescription" : "17",
+    "description" : "chininhaltig"
+  } ]
+}, {
+  "id" : 6104558,
+  "vzn" : "505",
+  "category" : "Kindermenü",
+  "title" : "Kindermenü mit Pasta Bolognese",
+  "description" : "dazu eine Apfelschorle 0,5 l, eine kleine Süßigkeit, einen Smoothie sowie ein Spielzeug",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/Kindermenue_mit_Pasta_Bolognese/Bild_Kindermenue_mit_Pasta_Bolognese.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/Kindermenue_mit_Pasta_Bolognese/Bild_Kindermenue_mit_Pasta_Bolognese.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6104814,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Pommes frites",
+  "description" : "mit Ketchup oder Mayonnaise",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Pommes_frites/Bild_Pommes_frites.data.jpg",
+  "options" : [ {
+    "id" : 6104890,
+    "name" : "Ketchup ",
+    "price" : 3.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.50
+    }, {
+      "currency" : "CHF",
+      "value" : 4.20
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6104892,
+    "name" : "Mayonnaise",
+    "price" : 3.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.50
+    }, {
+      "currency" : "CHF",
+      "value" : 4.20
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078312,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Chili con Carne",
+  "description" : "vom Rind, mit Sour Cream & BIO-Brötchen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Chili_con_Carne/Bild_Chili_con_Carne.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 9.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 9.90
+    }, {
+      "currency" : "CHF",
+      "value" : 11.90
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Chili_con_Carne/Bild_Chili_con_Carne.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111082,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Latte Macchiato",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Latte_Macchiato/Bild_Latte_Macchiato.data.jpg",
+  "options" : [ {
+    "id" : 6111072,
+    "name" : "Größe S",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111074,
+    "name" : "Größe M",
+    "price" : 4.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.00
+    }, {
+      "currency" : "CHF",
+      "value" : 4.80
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111076,
+    "name" : "Größe L",
+    "price" : 4.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.20
+    }, {
+      "currency" : "CHF",
+      "value" : 5.00
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111210,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Espresso",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Espresso/Bild_Espresso.data.jpg",
+  "options" : [ {
+    "id" : 6111200,
+    "name" : "Größe S",
+    "price" : 2.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.80
+    }, {
+      "currency" : "CHF",
+      "value" : 3.40
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111202,
+    "name" : "Größe M",
+    "price" : 3.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.20
+    }, {
+      "currency" : "CHF",
+      "value" : 3.80
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111716,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "share Mineralwasser sprudelnd",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/share_Mineralwasser_sprudelnd/Bild_share_Mineralwasser_sprudelnd.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.20
+    }, {
+      "currency" : "CHF",
+      "value" : 3.80
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/share_Mineralwasser_sprudelnd/Bild_share_Mineralwasser_sprudelnd.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078566,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Currywurst",
+  "description" : "mit Tortilla-Crunch & BIO-Brötchen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Currywurst/Bild_Currywurst.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Currywurst/Bild_Currywurst.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081296,
+    "shortDescription" : "2",
+    "description" : "mit Antioxidationsmittel"
+  }, {
+    "id" : 6081320,
+    "shortDescription" : "9",
+    "description" : "mit Phosphat"
+  } ]
+}, {
+  "id" : 6110950,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Cappuccino",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Cappuccino/Bild_Cappuccino.data.jpg",
+  "options" : [ {
+    "id" : 6101544,
+    "name" : "Größe S",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6101546,
+    "name" : "Größe M",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6101550,
+    "name" : "Größe L",
+    "price" : 4.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.00
+    }, {
+      "currency" : "CHF",
+      "value" : 4.80
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9146672,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "BIO-Gulaschsuppe",
+  "description" : "mit BIO-Brötchen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/BIO_Gulaschsuppe/Bild_BIO_Gulaschsuppe.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 6.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 6.90
+    }, {
+      "currency" : "CHF",
+      "value" : 8.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/BIO_Gulaschsuppe/Bild_BIO_Gulaschsuppe.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101344,
+  "vzn" : "505",
+  "category" : "Suppen & Salate",
+  "title" : "Vegane Tomatensuppe",
+  "description" : "mit BIO-Brötchen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/04_Suppen__Salate/Tomatensuppe/Bild_Tomatensuppe.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.40
+    }, {
+      "currency" : "CHF",
+      "value" : 6.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/04_Suppen__Salate/Tomatensuppe/Bild_Tomatensuppe.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9146678,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "BIO-Kartoffelrösti",
+  "description" : "mit BIO-Apfelmus ",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/BIO_Kartoffelroesti/Bild_BIO_Kartoffelroesti.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 6.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 6.50
+    }, {
+      "currency" : "CHF",
+      "value" : 7.80
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/BIO_Kartoffelroesti/Bild_BIO_Kartoffelroesti.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291600,
+  "vzn" : "505",
+  "category" : "Snacks",
+  "title" : "Veganer Wrap Italian Style",
+  "description" : "mit planted.pulled, Tomaten, Mais & Frühlingszwiebeln",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Veganer_Wrap_Italian_Style/Bild_Veganer_Wrap_Italian_Style.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/03_Snacks/Veganer_Wrap_Italian_Style/Bild_Veganer_Wrap_Italian_Style.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7691572,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Vegane Lisas BIO-Kesselchips",
+  "description" : "Meersalz, 50g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Lisas_BIO-Kesselchips_Meersalz/Bild_Lisas_BIO-Kesselchips_Meersalz.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.60
+    }, {
+      "currency" : "CHF",
+      "value" : 3.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Lisas_BIO-Kesselchips_Meersalz/Bild_Lisas_BIO-Kesselchips_Meersalz.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101406,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "M&M's",
+  "description" : "150g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/MMs/Bild_MMs.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.50
+    }, {
+      "currency" : "CHF",
+      "value" : 4.20
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/MMs/Bild_MMs.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081284,
+    "shortDescription" : "1",
+    "description" : "mit Farbstoff"
+  }, {
+    "id" : 6081334,
+    "shortDescription" : "15",
+    "description" : "aromatisiert"
+  } ]
+}, {
+  "id" : 9146702,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "BIO BRLO Winter Cider",
+  "description" : "0,33 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/BIO_BRLO_Winter_Cider/Bild_BIO_BRLO_Winter_Cider.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.50
+    }, {
+      "currency" : "CHF",
+      "value" : 4.20
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/BIO_BRLO_Winter_Cider/Bild_BIO_BRLO_Winter_Cider.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111386,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "BIO-Früchtetee",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/BIO-Fruechtetee/Bild_BIO-Fruechtetee.data.jpg",
+  "options" : [ {
+    "id" : 6111380,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111378,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6110356,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Brownie American Classic",
+  "description" : "Schokolade",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Brownie_American_Classic/Bild_Brownie_American_Classic.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Brownie_American_Classic/Bild_Brownie_American_Classic.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9146690,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "Vegetarische BIO-Focaccia ",
+  "description" : "mit Walnüssen, Brie & Birne",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Vegetarische_Focaccia/Bild_Vegetarische_Focaccia.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Vegetarische_Focaccia/Bild_Vegetarische_Focaccia.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 10035152,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "Menü: Ditsch Butterbrezel ",
+  "description" : "dazu Adelholzener Apfelschorle 0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_Ditsch_Butterbrezel/Bild_Menue_Ditsch_Butterbrezel.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.20
+    }, {
+      "currency" : "CHF",
+      "value" : 6.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_Ditsch_Butterbrezel/Bild_Menue_Ditsch_Butterbrezel.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6095382,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Filterkaffee",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Filterkaffee/Bild_Kaffee.data.jpg",
+  "options" : [ {
+    "id" : 6101534,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6095408,
+    "name" : "Größe M",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6081364,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111250,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "BIO-Earl Grey Tea",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/BIO-Earl_Grey_Tea/Bild_BIO-Earl_Grey_Tea.data.jpg",
+  "options" : [ {
+    "id" : 6111264,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111262,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078604,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Apfelkuchen",
+  "description" : "mit Butterstreusel",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Apfelkuchen/Bild_Apfelkuchen.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Apfelkuchen/Bild_Apfelkuchen.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081320,
+    "shortDescription" : "9",
+    "description" : "mit Phosphat"
+  } ]
+}, {
+  "id" : 6111756,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Coca-Cola Zero",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Coca-Cola_Zero/Bild_Coca-Cola_Zero.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Coca-Cola_Zero/Bild_Coca-Cola_Zero.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081284,
+    "shortDescription" : "1",
+    "description" : "mit Farbstoff"
+  }, {
+    "id" : 6081330,
+    "shortDescription" : "11",
+    "description" : "enthält eine Phenylalaninquelle"
+  }, {
+    "id" : 6081338,
+    "shortDescription" : "12",
+    "description" : "koffeinhaltig"
+  } ]
+}, {
+  "id" : 10035146,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "Menü: Veganer italienischer Nudelsalat",
+  "description" : "dazu Erdinger Brauhaus Helles Lagerbier 0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_Veganer_italienischer_Nudelsalat/Bild_Menue_Veganer_italienischer_Nudelsalat.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 10.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 10.90
+    }, {
+      "currency" : "CHF",
+      "value" : 13.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Menue_Veganer_italienischer_Nudelsalat/Bild_Menue_Veganer_italienischer_Nudelsalat.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291706,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Vegetarisches Käse-Omelett",
+  "description" : "mit BIO-Brötchen",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Vegetarisches_Kaese-Omelett/Bild_Vegetarisches_Kaese-Omelett.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Vegetarisches_Kaese-Omelett/Bild_Vegetarisches_Kaese-Omelett.data.jpg"
+  } ],
+  "extras" : [ {
+    "id" : 452138,
+    "title" : "Butter",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  }, {
+    "id" : 452140,
+    "title" : "Honig",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  }, {
+    "id" : 452135,
+    "title" : "Nutella",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  }, {
+    "id" : 452131,
+    "title" : "Konfitüre",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  } ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111748,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Coca-Cola",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Coca-Cola/Bild_Coca-Cola.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Coca-Cola/Bild_Coca-Cola.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081284,
+    "shortDescription" : "1",
+    "description" : "mit Farbstoff"
+  }, {
+    "id" : 6081338,
+    "shortDescription" : "12",
+    "description" : "koffeinhaltig"
+  } ]
+}, {
+  "id" : 7278388,
+  "vzn" : "505",
+  "category" : "Kindermenü",
+  "title" : "Kindermenü mit veganer Gemüsebolognese",
+  "description" : "dazu eine Apfelschorle 0,5 l, eine kleine Süßigkeit, einen Smoothie sowie ein Spielzeug",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/Kindermenue_mit_vegetarischer_Gemuesebolognese/Bild_Kindermenue_mit_veganer_Gemuesebolognese.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/02_Kindermenue/Kindermenue_mit_vegetarischer_Gemuesebolognese/Bild_Kindermenue_mit_veganer_Gemuesebolognese.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6111232,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Espresso Macchiato",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Espresso_Macchiato/Bild_Espresso_Macchiato.data.jpg",
+  "options" : [ {
+    "id" : 6111222,
+    "name" : "Größe S",
+    "price" : 3.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.00
+    }, {
+      "currency" : "CHF",
+      "value" : 3.60
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6111224,
+    "name" : "Größe M",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 8736600,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Herzhaft mit Käseaufschnitt",
+  "description" : "BIO-Brötchen, Croissant, Butter, Konfitüre, Bergkäse, Brie & Frankendammer",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Herzhaft_mit_Kaeseaufschnitt/Bild_Herzhaft_mit_Kaeseaufschnitt.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Herzhaft_mit_Kaeseaufschnitt/Bild_Herzhaft_mit_Kaeseaufschnitt.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101378,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Französisch",
+  "description" : "BIO-Brötchen, Croissant, Butter, Nutella, Honig & Konfitüre",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Franzoesisch/Bild_Franzoesisch.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Franzoesisch/Bild_Franzoesisch.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291790,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "ViO BiO Limonade Zitrone",
+  "description" : "0,3 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/ViO_BiO_Limonade_Zitrone/Bild_ViO_BiO_Limonade_Zitrone.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/ViO_BiO_Limonade_Zitrone/Bild_ViO_BiO_Limonade_Zitrone.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7252236,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Filterkaffee mit OATLY Haferdrink",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Filterkaffee_Oatly/Bild_Filterkaffee_Oatly.data.jpg",
+  "options" : [ {
+    "id" : 7252248,
+    "name" : "Größe S",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7252246,
+    "name" : "Größe M",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 7252244,
+    "name" : "Größe L",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081320,
+    "shortDescription" : "9",
+    "description" : "mit Phosphat"
+  } ]
+}, {
+  "id" : 6101694,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Bitburger Premium Pils Flasche",
+  "description" : "0,33 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_Premium_Pils/Bild_Bitburger_Premium_Pils.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_Premium_Pils/Bild_Bitburger_Premium_Pils.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 8736614,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Herzhaft mit Wurstaufschnitt",
+  "description" : "BIO-Brötchen, Croissant, Butter, Konfitüre, Schinkenspeck, Salami & luftgetrockneter Schinken",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Herzhaft_mit_Wurstaufschnitt/Bild_Herzhaft_mit_Wurstaufschnitt.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.90
+    }, {
+      "currency" : "CHF",
+      "value" : 10.70
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Herzhaft_mit_Wurstaufschnitt/Bild_Herzhaft_mit_Wurstaufschnitt.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081296,
+    "shortDescription" : "2",
+    "description" : "mit Antioxidationsmittel"
+  }, {
+    "id" : 6081294,
+    "shortDescription" : "4",
+    "description" : "konserviert"
+  }, {
+    "id" : 6081318,
+    "shortDescription" : "5",
+    "description" : "mit Konservierungsstoff Nitritpökelsalz"
+  } ]
+}, {
+  "id" : 6101688,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Bitburger Premium Pils vom Fass",
+  "description" : "0,3 l oder 0,5 l vom Fass",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Bitburger_Premium_Pils_vom_Fass/Bild_Bitburger_Premium_Pils_vom_Fass.data.jpg",
+  "options" : [ {
+    "id" : 6101762,
+    "name" : "0,3 l Glas",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6101764,
+    "name" : "0,5 l Glas",
+    "price" : 4.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.40
+    }, {
+      "currency" : "CHF",
+      "value" : 5.30
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6112180,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Rauch Orangensaft",
+  "description" : "0,2 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Rauch_Orangensaft/Bild_Rauch_Orangensaft.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.20
+    }, {
+      "currency" : "CHF",
+      "value" : 3.80
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Rauch_Orangensaft/Bild_Rauch_Orangensaft.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078646,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "COCAYA Heiße Schokolade",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/COCAYA_Heisse_Schokolade/Bild_COCAYA_Heisse_Schokolade.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/COCAYA_Heisse_Schokolade/Bild_COCAYA_Heisse_Schokolade.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 7291652,
+  "vzn" : "505",
+  "category" : "Suppen & Salate",
+  "title" : "Veganer italienischer Nudelsalat",
+  "description" : "mit getrockneten Tomaten, Kalamata-Oliven und Kapern",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/04_Suppen__Salate/Veganer_italienischer_Nudelsalat/Bild_Veganer_italienischer_Nudelsalat.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 7.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 7.90
+    }, {
+      "currency" : "CHF",
+      "value" : 9.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/04_Suppen__Salate/Veganer_italienischer_Nudelsalat/Bild_Veganer_italienischer_Nudelsalat.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078640,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Kaffee löslich, entkoffeiniert",
+  "description" : "Größe S",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Kaffee_loeslich_entkoffeiniert/Bild_Kaffee_loeslich_entkoffeiniert.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.40
+    }, {
+      "currency" : "CHF",
+      "value" : 4.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Kaffee_loeslich_entkoffeiniert/Bild_Kaffee_loeslich_entkoffeiniert.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6110384,
+  "vzn" : "505",
+  "category" : "Heißgetränke",
+  "title" : "Café Crème",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/07_Heissgetraenke/Caf_Crme/Bild_Caf_Crme.data.jpg",
+  "options" : [ {
+    "id" : 6101536,
+    "name" : "Größe S",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6101538,
+    "name" : "Größe M",
+    "price" : 3.80,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.80
+    }, {
+      "currency" : "CHF",
+      "value" : 4.60
+    } ],
+    "declarations" : [ ]
+  }, {
+    "id" : 6101540,
+    "name" : "Größe L",
+    "price" : 4.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.00
+    }, {
+      "currency" : "CHF",
+      "value" : 4.80
+    } ],
+    "declarations" : [ ]
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9194466,
+  "vzn" : "505",
+  "category" : "Aktion",
+  "title" : "Erdinger Brauhaus Helles Lagerbier",
+  "description" : "0,5 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Erdinger_Brauhaus_Helles_Lagerbier/Bild_Erdinger_Brauhaus_Helles_Lagerbier.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 4.40,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.40
+    }, {
+      "currency" : "CHF",
+      "value" : 5.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/00_Aktion/2022_12_Dezember/Erdinger_Brauhaus_Helles_Lagerbier/Bild_Erdinger_Brauhaus_Helles_Lagerbier.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9194722,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Kalbsgeschnetzeltes ",
+  "description" : "mit BIO-Kartoffelrösti",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Kalbsgeschnetzeltes/Bild_Kalbsgeschnetzeltes.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 15.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 15.90
+    }, {
+      "currency" : "CHF",
+      "value" : 19.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Kalbsgeschnetzeltes/Bild_Kalbsgeschnetzeltes.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6112300,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "2019 Eins-Zwei-Dry Riesling",
+  "description" : "trocken, Weingut Leitz, Rheingau, 0,25 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/2019_Eins-Zwei-Dry_Riesling/Bild_2019_Eins-Zwei-Dry_Riesling.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 8.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 8.50
+    }, {
+      "currency" : "CHF",
+      "value" : 10.20
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/2019_Eins-Zwei-Dry_Riesling/Bild_2019_Eins-Zwei-Dry_Riesling.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 6081328,
+    "shortDescription" : "16",
+    "description" : "enthält Sulfite"
+  }, {
+    "id" : 6081336,
+    "shortDescription" : "6",
+    "description" : "geschwefelt"
+  } ]
+}, {
+  "id" : 7278366,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Vegane Gemüsebolognese",
+  "description" : "mit Fusilli ",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Vegane_Gemuesebolognese/Bild_Vegane_Gemuesebolognese.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 9.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 9.90
+    }, {
+      "currency" : "CHF",
+      "value" : 11.90
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Vegane_Gemuesebolognese/Bild_Vegane_Gemuesebolognese.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078504,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Bolognese",
+  "description" : "mit Fusilli",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Fusilli_mit_Bolognese/Bild_Fusilli_mit_Bolognese.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 11.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 11.20
+    }, {
+      "currency" : "CHF",
+      "value" : 13.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Fusilli_mit_Bolognese/Bild_Fusilli_mit_Bolognese.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9194490,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Edinburgh Seaside Gin",
+  "description" : "Alc. 35 Vol.-%, 5 cl Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Edinburgh_Seaside_Gin/Bild_Edinburgh_Seaside_Gin.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.90
+    }, {
+      "currency" : "CHF",
+      "value" : 7.10
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Edinburgh_Seaside_Gin/Bild_Edinburgh_Seaside_Gin.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6080164,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Twix Xtra",
+  "description" : "75g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Twix_Xtra/Bild_Twix_Xtra.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.20
+    }, {
+      "currency" : "CHF",
+      "value" : 2.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Twix_Xtra/Bild_Twix_Xtra.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 9194614,
+  "vzn" : "505",
+  "category" : "Hauptgerichte",
+  "title" : "Veganes planted.chicken Paprika Zitrone",
+  "description" : "mit Basmatireis",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Veganes_Planted.chicken_Paprika_Zitrone/Bild_Veganes_Planted.chicken_Paprika_Zitrone.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 12.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 12.90
+    }, {
+      "currency" : "CHF",
+      "value" : 15.50
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/01_Hauptgerichte/Veganes_Planted.chicken_Paprika_Zitrone/Bild_Veganes_Planted.chicken_Paprika_Zitrone.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6101414,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "OREO Snack Pack",
+  "description" : "66g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/OREO_Snack_Pack/Bild_OREO_Snack_Pack.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.50,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.50
+    }, {
+      "currency" : "CHF",
+      "value" : 3.00
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/OREO_Snack_Pack/Bild_OREO_Snack_Pack.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 8736638,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Käseaufschnitt",
+  "description" : "Bergkäse, Brie & Frankendammer",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Kaeseaufschnitt/Bild_Kaeseaufschnitt.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.00
+    }, {
+      "currency" : "CHF",
+      "value" : 6.00
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Kaeseaufschnitt/Bild_Kaeseaufschnitt.data.jpg"
+  } ],
+  "extras" : [ {
+    "id" : 452138,
+    "title" : "Butter",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  }, {
+    "id" : 452136,
+    "title" : "BIO-Brötchen Rusti",
+    "price" : 1.00,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.00
+    }, {
+      "currency" : "CHF",
+      "value" : 1.20
+    } ]
+  }, {
+    "id" : 452139,
+    "title" : "BIO-Brötchen Rustivital",
+    "price" : 1.00,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.00
+    }, {
+      "currency" : "CHF",
+      "value" : 1.20
+    } ]
+  } ],
+  "declarations" : [ ]
+}, {
+  "id" : 9194480,
+  "vzn" : "505",
+  "category" : "Kaltgetränke",
+  "title" : "Fever Tree Mediterranean Tonic Water",
+  "description" : "0,2 l Flasche",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Fever_Tree_Mediterranean_Tonic_Water/Bild_Fever_Tree_Mediterranean_Tonic_Water.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 3.60,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 3.60
+    }, {
+      "currency" : "CHF",
+      "value" : 4.30
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/08_Kaltgetraenke/Fever_Tree_Mediterranean_Tonic_Water/Bild_Fever_Tree_Mediterranean_Tonic_Water.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ {
+    "id" : 7654246,
+    "shortDescription" : "17",
+    "description" : "chininhaltig"
+  } ]
+}, {
+  "id" : 6110368,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Snickers Doppelpack",
+  "description" : "80g",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Snickers_Doppelpack/Bild_Snickers_Doppelpack.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 2.20,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 2.20
+    }, {
+      "currency" : "CHF",
+      "value" : 2.60
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Snickers_Doppelpack/Bild_Snickers_Doppelpack.data.jpg"
+  } ],
+  "extras" : [ ],
+  "declarations" : [ ]
+}, {
+  "id" : 6078626,
+  "vzn" : "505",
+  "category" : "Süß & salzig",
+  "title" : "Veganer Haferdrink-Milchreis mit Zimt & Zucker",
+  "description" : "wahlweise auch mit Kirschkompott, Schokosoße oder Haselnuss-Cashew Topping",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Milchreis_mit_Zimt__Zucker/Bild_Milchreis_mit_Zimt__Zucker.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 4.90,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 4.90
+    }, {
+      "currency" : "CHF",
+      "value" : 5.90
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/06_Suess__salzig/Milchreis_mit_Zimt__Zucker/Bild_Milchreis_mit_Zimt__Zucker.data.jpg"
+  } ],
+  "extras" : [ {
+    "id" : 452133,
+    "title" : "Veganes BIO-Topping Haselnuss-Cashew",
+    "price" : 1.50,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.50
+    }, {
+      "currency" : "CHF",
+      "value" : 1.80
+    } ]
+  }, {
+    "id" : 452134,
+    "title" : "Kirschkompott",
+    "price" : 1.60,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.60
+    }, {
+      "currency" : "CHF",
+      "value" : 1.90
+    } ]
+  }, {
+    "id" : 452130,
+    "title" : "Schokosoße",
+    "price" : 1.60,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.60
+    }, {
+      "currency" : "CHF",
+      "value" : 1.90
+    } ]
+  } ],
+  "declarations" : [ ]
+}, {
+  "id" : 8736890,
+  "vzn" : "505",
+  "category" : "Frühstück",
+  "title" : "Wurstaufschnitt",
+  "description" : "Schinkenspeck, Salami & luftgetrockneter Schinken",
+  "checked" : true,
+  "available" : true,
+  "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Wurstaufschnitt/Bild_Wurstaufschnitt.data.jpg",
+  "options" : [ {
+    "id" : -1,
+    "name" : "default",
+    "price" : 5.00,
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 5.00
+    }, {
+      "currency" : "CHF",
+      "value" : 6.00
+    } ],
+    "declarations" : [ ],
+    "imageUrl" : "img/grains/Sites/ICE-Portal/Germany/de/Release_2.0/Startseite_3.0/BaP_-_Bestellen_am_Platz/05_Fruehstueck/Wurstaufschnitt/Bild_Wurstaufschnitt.data.jpg"
+  } ],
+  "extras" : [ {
+    "id" : 452138,
+    "title" : "Butter",
+    "price" : 0.90,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 0.90
+    }, {
+      "currency" : "CHF",
+      "value" : 1.10
+    } ]
+  }, {
+    "id" : 452136,
+    "title" : "BIO-Brötchen Rusti",
+    "price" : 1.00,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.00
+    }, {
+      "currency" : "CHF",
+      "value" : 1.20
+    } ]
+  }, {
+    "id" : 452139,
+    "title" : "BIO-Brötchen Rustivital",
+    "price" : 1.00,
+    "declarations" : [ ],
+    "prices" : [ {
+      "currency" : "EUR",
+      "value" : 1.00
+    }, {
+      "currency" : "CHF",
+      "value" : 1.20
+    } ]
+  } ],
+  "declarations" : [ {
+    "id" : 6081296,
+    "shortDescription" : "2",
+    "description" : "mit Antioxidationsmittel"
+  }, {
+    "id" : 6081294,
+    "shortDescription" : "4",
+    "description" : "konserviert"
+  }, {
+    "id" : 6081318,
+    "shortDescription" : "5",
+    "description" : "mit Konservierungsstoff Nitritpökelsalz"
+  } ]
+} ]

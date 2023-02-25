@@ -1,0 +1,585 @@
+{
+  "articles" : [ {
+    "ecmId" : 7252332,
+    "bapId" : 452141,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736902,
+    "bapId" : 452145,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078552,
+    "bapId" : 452146,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6104538,
+    "bapId" : 452147,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111322,
+    "bapId" : 452150,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291624,
+    "bapId" : 452153,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736908,
+    "bapId" : 452154,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101712,
+    "bapId" : 452155,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6112208,
+    "bapId" : 452156,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 10035092,
+    "bapId" : 452157,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078290,
+    "bapId" : 452158,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7278560,
+    "bapId" : 452159,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9146648,
+    "bapId" : 452164,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9635206,
+    "bapId" : 452165,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291770,
+    "bapId" : 452166,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101706,
+    "bapId" : 452167,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7654380,
+    "bapId" : 452168,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101700,
+    "bapId" : 452169,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6112326,
+    "bapId" : 452170,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6112320,
+    "bapId" : 452171,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111426,
+    "bapId" : 452172,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291632,
+    "bapId" : 452175,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736922,
+    "bapId" : 452176,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6110972,
+    "bapId" : 452177,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101758,
+    "bapId" : 452181,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6104564,
+    "bapId" : 452182,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111348,
+    "bapId" : 452183,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078326,
+    "bapId" : 452186,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101494,
+    "bapId" : 452187,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111734,
+    "bapId" : 452188,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9194912,
+    "bapId" : 452189,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101360,
+    "bapId" : 452190,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078572,
+    "bapId" : 452191,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111724,
+    "bapId" : 452192,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7655622,
+    "bapId" : 452193,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6104558,
+    "bapId" : 452194,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6104814,
+    "bapId" : 452195,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078312,
+    "bapId" : 452198,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111082,
+    "bapId" : 452199,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111210,
+    "bapId" : 452203,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111716,
+    "bapId" : 452206,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078566,
+    "bapId" : 452207,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6110950,
+    "bapId" : 452208,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9146672,
+    "bapId" : 452212,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101344,
+    "bapId" : 452213,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9146678,
+    "bapId" : 452214,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291600,
+    "bapId" : 452215,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7691572,
+    "bapId" : 452216,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101406,
+    "bapId" : 452217,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9146702,
+    "bapId" : 452218,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111386,
+    "bapId" : 452219,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6110356,
+    "bapId" : 452222,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9146690,
+    "bapId" : 452223,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 10035152,
+    "bapId" : 452224,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6095382,
+    "bapId" : 452225,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111250,
+    "bapId" : 452229,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078604,
+    "bapId" : 452232,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111756,
+    "bapId" : 452233,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 10035146,
+    "bapId" : 452234,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291706,
+    "bapId" : 452235,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111748,
+    "bapId" : 452236,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7278388,
+    "bapId" : 452237,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6111232,
+    "bapId" : 452238,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736600,
+    "bapId" : 452241,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101378,
+    "bapId" : 452242,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291790,
+    "bapId" : 452243,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7252236,
+    "bapId" : 452244,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101694,
+    "bapId" : 452248,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736614,
+    "bapId" : 452249,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101688,
+    "bapId" : 452250,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6112180,
+    "bapId" : 452253,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078646,
+    "bapId" : 452254,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7291652,
+    "bapId" : 452255,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078640,
+    "bapId" : 452256,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6110384,
+    "bapId" : 452257,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9194466,
+    "bapId" : 452261,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9194722,
+    "bapId" : 452262,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6112300,
+    "bapId" : 452263,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 7278366,
+    "bapId" : 452264,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078504,
+    "bapId" : 452265,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9194490,
+    "bapId" : 452266,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6080164,
+    "bapId" : 452267,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9194614,
+    "bapId" : 452268,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6101414,
+    "bapId" : 452269,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736638,
+    "bapId" : 452270,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 9194480,
+    "bapId" : 452271,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6110368,
+    "bapId" : 452272,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 6078626,
+    "bapId" : 452273,
+    "status" : "AVAILABLE"
+  }, {
+    "ecmId" : 8736890,
+    "bapId" : 452274,
+    "status" : "AVAILABLE"
+  } ],
+  "options" : [ {
+    "ecmId" : 7252322,
+    "bapId" : 452142,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7252324,
+    "bapId" : 452143,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7252326,
+    "bapId" : 452144,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6159994,
+    "bapId" : 452148,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6159996,
+    "bapId" : 452149,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111316,
+    "bapId" : 452151,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111314,
+    "bapId" : 452152,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7290728,
+    "bapId" : 452160,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7290740,
+    "bapId" : 452161,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7290730,
+    "bapId" : 452162,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7290742,
+    "bapId" : 452163,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111420,
+    "bapId" : 452173,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111418,
+    "bapId" : 452174,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111016,
+    "bapId" : 452178,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111020,
+    "bapId" : 452179,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111018,
+    "bapId" : 452180,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111342,
+    "bapId" : 452184,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111340,
+    "bapId" : 452185,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6104890,
+    "bapId" : 452196,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6104892,
+    "bapId" : 452197,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111072,
+    "bapId" : 452200,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111074,
+    "bapId" : 452201,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111076,
+    "bapId" : 452202,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111200,
+    "bapId" : 452204,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111202,
+    "bapId" : 452205,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101544,
+    "bapId" : 452209,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101546,
+    "bapId" : 452210,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101550,
+    "bapId" : 452211,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111380,
+    "bapId" : 452220,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111378,
+    "bapId" : 452221,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101534,
+    "bapId" : 452226,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6095408,
+    "bapId" : 452227,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6081364,
+    "bapId" : 452228,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111264,
+    "bapId" : 452230,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111262,
+    "bapId" : 452231,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111222,
+    "bapId" : 452239,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6111224,
+    "bapId" : 452240,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7252248,
+    "bapId" : 452245,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7252246,
+    "bapId" : 452246,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7252244,
+    "bapId" : 452247,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101762,
+    "bapId" : 452251,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101764,
+    "bapId" : 452252,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101536,
+    "bapId" : 452258,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101538,
+    "bapId" : 452259,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101540,
+    "bapId" : 452260,
+    "status" : "UNAVAILABLE"
+  } ],
+  "extras" : [ {
+    "ecmId" : 6311864,
+    "bapId" : 452132,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6311866,
+    "bapId" : 452137,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 7291686,
+    "bapId" : 452133,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6081302,
+    "bapId" : 452138,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101282,
+    "bapId" : 452140,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101284,
+    "bapId" : 452135,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101288,
+    "bapId" : 452131,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 8736860,
+    "bapId" : 452136,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 8736862,
+    "bapId" : 452139,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101316,
+    "bapId" : 452134,
+    "status" : "UNAVAILABLE"
+  }, {
+    "ecmId" : 6101326,
+    "bapId" : 452130,
+    "status" : "UNAVAILABLE"
+  } ]
+}

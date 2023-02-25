@@ -96,3 +96,60 @@ type Status struct {
 	} `json:"connectivity"`
 	BapInstalled bool `json:"bapInstalled"`
 }
+
+// https://iceportal.de/bap/api/articles
+type BAPArticle struct {
+	Id        int    `json:"id"`
+	Vzn       string `json:"vzn"`
+	Category  string `json:"category"`
+	Title     string `json:"title"`
+	Checked   bool   `json:"checked"`
+	Available bool   `json:"available"`
+	ImageUrl  string `json:"imageUrl"`
+	Options   []struct {
+		Id     int     `json:"id"`
+		Name   string  `json:"name"`
+		Price  float64 `json:"price"`
+		Prices []struct {
+			Currency string  `json:"currency"`
+			Value    float64 `json:"value"`
+		} `json:"prices"`
+		Declarations []interface{} `json:"declarations"`
+		ImageUrl     string        `json:"imageUrl,omitempty"`
+	} `json:"options"`
+	Extras []struct {
+		Id           int           `json:"id"`
+		Title        string        `json:"title"`
+		Price        float64       `json:"price"`
+		Declarations []interface{} `json:"declarations"`
+		Prices       []struct {
+			Currency string  `json:"currency"`
+			Value    float64 `json:"value"`
+		} `json:"prices"`
+	} `json:"extras"`
+	Declarations []struct {
+		Id               int    `json:"id"`
+		ShortDescription string `json:"shortDescription"`
+		Description      string `json:"description"`
+	} `json:"declarations"`
+	Description string `json:"description,omitempty"`
+}
+
+// https://iceportal.de/bap/api/availabilities
+type BAPAvailabilities struct {
+	Articles []struct {
+		EcmId  int    `json:"ecmId"`
+		BapId  int    `json:"bapId"`
+		Status string `json:"status"`
+	} `json:"articles"`
+	Options []struct {
+		EcmId  int    `json:"ecmId"`
+		BapId  int    `json:"bapId"`
+		Status string `json:"status"`
+	} `json:"options"`
+	Extras []struct {
+		EcmId  int    `json:"ecmId"`
+		BapId  int    `json:"bapId"`
+		Status string `json:"status"`
+	} `json:"extras"`
+}
